@@ -14,7 +14,7 @@ public class EjercicioString {
 		 */
 		
 		
-		Scanner leer= new Scanner(System.in, "UTF-8");
+		Scanner leer= new Scanner(System.in);
 		
 		System.out.println("Ingrese un palabra");
 		String textoIngresado=leer.nextLine();
