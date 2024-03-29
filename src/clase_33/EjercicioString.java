@@ -14,10 +14,10 @@ public class EjercicioString {
 		 */
 		
 		
-		Scanner leer= new Scanner(System.in);
+		Scanner leer= new Scanner(System.in, "UTF-8");
 		
 		System.out.println("Ingrese un palabra");
-		String textoIngresado=leer.next();
+		String textoIngresado=leer.nextLine();
 		
 		if(textoIngresado.length()==8) {
 			System.out.println("CORRECTO");
@@ -37,9 +37,6 @@ public class EjercicioString {
             System.out.println(caracter);
 		
 		}
-		
-		
-		
 		
 		
 		// muestra de inmutabilidad
